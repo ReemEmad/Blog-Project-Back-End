@@ -4,7 +4,7 @@ var Schema = mongoose.Schema;
 const blogSchema = new Schema({
   userId: {
     type: mongoose.Types.ObjectId,
-    ref: "users",
+    ref: "Users",
   },
   title: {
     type: String,
