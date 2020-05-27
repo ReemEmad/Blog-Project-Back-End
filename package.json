@@ -19,7 +19,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon ./src ",
+    "start": "nodemon ./src/index.js",
     "pretest": "eslint --ignore-path .gitignore",
     "lint": "eslint ./src/index.js --fix"
   },
